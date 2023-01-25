@@ -8,5 +8,5 @@
 import Foundation
 
 struct Game {
-    
+    private let questions = Question.allQuestions.shuffled()
 }
