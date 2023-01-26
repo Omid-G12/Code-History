@@ -8,5 +8,6 @@
 import Foundation
 
 struct Game {
+    private(set) var guesses = [Question: Int]()
     private let questions = Question.allQuestions.shuffled()
 }
