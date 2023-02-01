@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GameView: View {
    
     let question = Question(
         questionText: "What was the first computer bug?",
         possibleAnswers: ["Ant", "Beetle", "Moth", "Fly"],
         correctAnswerIndex: 2)
     
-    @State var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
+    @State var mainColor = GameColor.main
     
     var body: some View {
         ZStack {
@@ -48,6 +48,6 @@ struct ContentView: View {
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GameView()
     }
 }
