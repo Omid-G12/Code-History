@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E6B73E5299DC16F00FAEEF5 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B73E4299DC16F00FAEEF5 /* GameViewModel.swift */; };
+		2E6B73E7299ECE2800FAEEF5 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B73E6299ECE2800FAEEF5 /* QuestionView.swift */; };
+		2E6B73E9299EDF4A00FAEEF5 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B73E8299EDF4A00FAEEF5 /* ScoreView.swift */; };
+		2E6B73EB299EE30A00FAEEF5 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B73EA299EE30A00FAEEF5 /* ScoreViewModel.swift */; };
 		2E9F6C562989B4AD00E9C9B1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F6C552989B4AD00E9C9B1 /* WelcomeView.swift */; };
 		2E9F6C582989B97A00E9C9B1 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F6C572989B97A00E9C9B1 /* GameColor.swift */; };
 		2E9F6C5C2989BBC100E9C9B1 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F6C5B2989BBC100E9C9B1 /* BottomTextView.swift */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E6B73E4299DC16F00FAEEF5 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		2E6B73E6299ECE2800FAEEF5 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		2E6B73E8299EDF4A00FAEEF5 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		2E6B73EA299EE30A00FAEEF5 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 		2E9F6C552989B4AD00E9C9B1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		2E9F6C572989B97A00E9C9B1 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		2E9F6C5B2989BBC100E9C9B1 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E6B73E3299DBFA500FAEEF5 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B73E4299DC16F00FAEEF5 /* GameViewModel.swift */,
+				2E6B73EA299EE30A00FAEEF5 /* ScoreViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		2EA6EC7F297D2A4A00F58A62 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +80,7 @@
 		2EA6EC8A297D2A4A00F58A62 /* Code History */ = {
 			isa = PBXGroup;
 			children = (
+				2E6B73E3299DBFA500FAEEF5 /* View Model */,
 				2EA6ECA22980CA5400F58A62 /* Views */,
 				2EA6ECA12980CA3000F58A62 /* Models */,
 				2EA6EC8B297D2A4A00F58A62 /* Code_HistoryApp.swift */,
@@ -97,6 +115,8 @@
 				2E9F6C552989B4AD00E9C9B1 /* WelcomeView.swift */,
 				2E9F6C572989B97A00E9C9B1 /* GameColor.swift */,
 				2E9F6C5B2989BBC100E9C9B1 /* BottomTextView.swift */,
+				2E6B73E6299ECE2800FAEEF5 /* QuestionView.swift */,
+				2E6B73E8299EDF4A00FAEEF5 /* ScoreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,11 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6B73E7299ECE2800FAEEF5 /* QuestionView.swift in Sources */,
+				2E6B73E5299DC16F00FAEEF5 /* GameViewModel.swift in Sources */,
 				2EA6EC9A297E2CC200F58A62 /* Questions.swift in Sources */,
+				2E6B73EB299EE30A00FAEEF5 /* ScoreViewModel.swift in Sources */,
 				2E9F6C562989B4AD00E9C9B1 /* WelcomeView.swift in Sources */,
 				2E9F6C5C2989BBC100E9C9B1 /* BottomTextView.swift in Sources */,
 				2EA6ECA02980C9D100F58A62 /* Game.swift in Sources */,
 				2EA6EC8E297D2A4A00F58A62 /* GameView.swift in Sources */,
+				2E6B73E9299EDF4A00FAEEF5 /* ScoreView.swift in Sources */,
 				2E9F6C582989B97A00E9C9B1 /* GameColor.swift in Sources */,
 				2EA6EC9E297E2F9900F58A62 /* ChoiceTextView.swift in Sources */,
 				2EA6EC8C297D2A4A00F58A62 /* Code_HistoryApp.swift in Sources */,
